@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Comic Code";
+    src: url("fonts/Tabular\ Type\ Foundry\ -\ Comic\ Code\ Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Comic Code";
+    src: url("fonts/Tabular\ Type\ Foundry\ -\ Comic\ Code\ Italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Comic Code";
+    src: url("fonts/Tabular\ Type\ Foundry\ -\ Comic\ Code\ Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Comic Code";
+    src: url("fonts/Tabular\ Type\ Foundry\ -\ Comic\ Code\ Bold\ Italic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    margin: 30px auto;
+    width: 80%;
+    color: #EEE;
+    font-family: "Comic Code", sans-serif;
+    background: #333;
+}
